@@ -1,0 +1,21 @@
+#index:
+#    path: /
+#    controller: App\Controller\DefaultController::index
+
+home:
+    path: /  
+    controller: App\Controller\WebController::home
+
+productos:
+    path: /productos
+    controller: App\Controller\WebController::productos
+
+
+nosotros:
+    path: /nosotros
+    controller: App\Controller\WebController::nosotros
+
+
+contactenos:
+    path: /contactenos
+    controller: App\Controller\WebController::contactenos
